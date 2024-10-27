@@ -10,10 +10,10 @@
       ],
       "cache": true
     },
-    "lint": {
+    "tsc": {
       "cache": true
     },
-    "tsc": {
+    "lint": {
       "cache": true
     }
   },
