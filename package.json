@@ -10,7 +10,8 @@
     "format:write": "pnpm format --write",
     "tsc": "pnpm exec nx run-many -t tsc",
     "lint": "pnpm exec nx run-many -t lint",
-    "validate": "pnpm format:write && pnpm tsc && pnpm lint"
+    "validate": "pnpm format:write && pnpm tsc && pnpm lint",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "globals": "^15.11.0",
     "nx": "20.0.6",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "husky": "^8.0.0"
   }
 }
