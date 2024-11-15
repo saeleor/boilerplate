@@ -27,6 +27,7 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "@boilerplate/example": "workspace:^",
+    "@boilerplate/util": "workspace:^",
     "@nestjs/apollo": "^12.2.1",
     "@nestjs/common": "^10.4.6",
     "@nestjs/config": "^3.3.0",

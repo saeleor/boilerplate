@@ -16,7 +16,10 @@ export class UserWhereInputStrict
   implements
     RestrictProperties<
       UserWhereInputStrict,
-      Omit<Prisma.UserWhereInput, 'Credentials' | 'AuthProvider' | 'image'>
+      Omit<
+        Prisma.UserWhereInput,
+        'Credentials' | 'AuthProvider' | 'image' | 'Admin' | 'Manager'
+      >
     >
 {
   // Add the below field decorator only to the $Enums types.
