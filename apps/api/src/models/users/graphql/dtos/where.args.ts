@@ -5,6 +5,7 @@ import {
   RestrictProperties,
   StringFilter,
 } from 'src/common/dtos/common.input'
+import { ItemListRelationFilter } from 'src/models/items/graphql/dtos/where.args'
 
 @InputType()
 export class UserWhereUniqueInput {
@@ -22,12 +23,12 @@ export class UserWhereInputStrict
       >
     >
 {
-  // Add the below field decorator only to the $Enums types.
-  // @Field(() => $Enums.x)
   uid: StringFilter
   createdAt: DateTimeFilter
   updatedAt: DateTimeFilter
   name: StringFilter
+
+  Item: ItemListRelationFilter
 
   AND: UserWhereInput[]
   OR: UserWhereInput[]
