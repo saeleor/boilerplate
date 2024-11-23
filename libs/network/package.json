@@ -1,0 +1,27 @@
+{
+  "name": "@boilerplate/network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/named-operations-object": "^3.1.0",
+    "@graphql-codegen/typed-document-node": "^5.0.12",
+    "@graphql-codegen/typescript-operations": "^4.4.0",
+    "@parcel/watcher": "^2.5.0",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "@parcel/watcher": "^2.5.0"
+  }
+}
